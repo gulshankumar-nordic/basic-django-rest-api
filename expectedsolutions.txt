@@ -1,0 +1,14 @@
+Expected problem and solutions
+
+Problem : Class has no objects member
+
+solution:
+Press ctr+sft+P to open the the Command Palette.
+Now in command palette type Preferences: 
+ Configure Language Specific Settings. 
+ Now select Python. Here in right side paste this code
+
+"python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+
+    ]
