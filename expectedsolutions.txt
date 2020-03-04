@@ -12,3 +12,12 @@ Now in command palette type Preferences:
         "--load-plugins=pylint_django",
 
     ]
+
+
+Adding Publish field with current time in postman
+
+Problem: "publish": [
+                "This field is required."
+            ]
+
+Solutions: Remove publish field from serializers
